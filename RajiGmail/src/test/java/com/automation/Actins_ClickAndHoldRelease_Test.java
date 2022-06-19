@@ -14,7 +14,7 @@ public class Actins_ClickAndHoldRelease_Test {
 		
 //Copied this from PDF, for mine I am getting the exception at Frames, not able to resolve. but the entire code is correct
 		
-		// Framess
+		
 		WebDriverManager.chromedriver().setup();
 		
 		WebDriver driver = new ChromeDriver();
