@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SWAG]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TstNG_TC_004_DataProvider_DiffrntSetsOfData_(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.TstNG_TC_004_DataProvider_DiffrntSetsOfData_">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="addRemoveToCart"/>
+        </methods>
+      </class> <!-- com.automation.TstNG_TC_004_DataProvider_DiffrntSetsOfData_ -->
+    </classes>
+  </test> <!-- TstNG_TC_004_DataProvider_DiffrntSetsOfData_(failed) -->
+</suite> <!-- Failed suite [SWAG] -->

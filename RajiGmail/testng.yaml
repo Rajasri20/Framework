@@ -1,0 +1,7 @@
+name: Orange HRM AddEmployee
+configFailurePolicy: skip
+tests:
+  - name: TstNG_SingleClass_MultipleTestScriptsOrMethds
+  classes:
+    - com.automation.TstNG_SingleClass_MultipleTestScriptsOrMethds
+

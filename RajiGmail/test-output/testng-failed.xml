@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MRS]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HybridFW_TC_003_CreateRecrd(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.HybridFW_TC_003_CreateRecrd">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createRecord"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.automation.HybridFW_TC_003_CreateRecrd -->
+    </classes>
+  </test> <!-- HybridFW_TC_003_CreateRecrd(failed) -->
+</suite> <!-- Failed suite [MRS] -->

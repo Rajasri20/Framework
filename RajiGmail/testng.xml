@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MRS">
+
+  <test  name="DataDriven_FrameWork_TC_001_CreateRecrd" >
+  <parameter name="Browser" value= "chrome"/>
+    <classes>
+      <class name="com.automation.DataDriven_FrameWork_TC_001_CreateRecrd"/>
+    </classes>
+  </test> 
+  
+  
+  <test  name="PageObjectModel_FW_TC_002_CreateRecrd" enabled = "false">
+  <parameter name="Browser" value= "chrome"/>
+    <classes>
+      <class name="com.automation.PageObjectModel_FW_TC_002_CreateRecrd"/>
+    </classes>
+  </test> 
+  
+  
+  <test  name="HybridFW_TC_003_CreateRecrd" enabled="false">
+  <parameter name="Browser" value= "chrome"/>
+    <classes>
+      <class name="com.automation.HybridFW_TC_003_CreateRecrd"/>
+    </classes>
+  </test> 
+
+</suite> 

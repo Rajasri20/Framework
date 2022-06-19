@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orange HRM AddEmployee]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TstNG_SingleClass_MultipleTestScriptsOrMethds(failed)">
+    <classes>
+      <class name="com.automation.TstNG_SingleClass_MultipleTestScriptsOrMethds">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="deleEmployee"/>
+          <include name="closeBrowser"/>
+          <include name="editEmployee"/>
+        </methods>
+      </class> <!-- com.automation.TstNG_SingleClass_MultipleTestScriptsOrMethds -->
+    </classes>
+  </test> <!-- TstNG_SingleClass_MultipleTestScriptsOrMethds(failed) -->
+</suite> <!-- Failed suite [Orange HRM AddEmployee] -->
